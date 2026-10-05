@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>MOJO Photography · Ashmit Singh</title>
+<meta property="og:title" content="MOJO Photography · Ashmit Singh">
+<meta property="og:description" content="Wildlife, cinematic, street and night photography by Ashmit Singh.">
+<meta name="description" content="MOJO Photography by Ashmit Singh. Wildlife, cinematic, street and night photography and films.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@400;600;800;900&family=Figtree:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22%3E%3Ctext y=%22.9em%22 font-size=%2290%22%3E📷%3C/text%3E%3C/svg%3E">
+</head>
+<body data-genre="all">
+
+<div class="intro" id="intro" aria-hidden="true">
+  <svg viewBox="-50 -50 100 100"><g fill="none" stroke="#fff" stroke-width="1.6">
+    <circle r="46"/>
+    <path d="M-12-44L40-20M44 -8L22 40M30 34L-28 36M-38 26L-42-24M-44-12L4-46M24-38L-2 46"/>
+  </g></svg>
+  <div class="word">MOJO PHOTOGRAPHY</div>
+</div>
+
+<nav class="nav" id="nav">
+  <div class="nav-in wrap">
+    <a class="logo" href="#top" aria-label="MOJO Photography home">
+      <svg viewBox="-50 -50 100 100" aria-hidden="true"><g fill="none" stroke="currentColor" stroke-width="6"><circle r="44"/><path d="M-12-44L40-20M44-8L22 40M30 34L-28 36M-38 26L-42-24"/></g></svg>
+      <span><b>MOJO</b><small>PHOTOGRAPHY</small></span>
+    </a>
+    <div class="links">
+      <a href="#genres">Genres</a><a href="#work">Portfolio</a><a href="#films" id="filmsLink">Films</a><a href="#about">About</a><a href="#kit">Gear</a><a href="#contact">Contact</a>
+    </div>
+    <div class="tools">
+      <button class="btn ghost icon-btn" id="themeBtn" aria-label="Switch light or dark">◐</button>
+    </div>
+  </div>
+</nav>
+
+<header class="hero" id="top">
+  <div class="hero-sky"></div>
+  <div id="heroLayer"></div>
+  <div class="hero-shade"></div>
+  <div class="grain"></div>
+  <div class="bar top"></div><div class="bar bot"></div>
+  <div class="vf"><i></i><i></i><i></i><i></i><span class="ctr"></span></div>
+  <div class="hud tl"><b></b><span id="hudL">REC · Canon</span></div>
+  <div class="hud tr" id="hudR"></div>
+  <div class="hero-copy">
+    <h1>MOJO<span>PHOTOGRAPHY</span></h1>
+    <div class="hero-row">
+      <p id="tagline"><strong>Ashmit Singh.</strong> Wildlife, cinematic, street and night photography, shot on Canon, DJI and GoPro.</p>
+      <div class="hero-ctas">
+        <a class="btn primary" href="#work">View portfolio</a>
+        <a class="btn ghost" href="https://instagram.com/shot_by_ashmit" target="_blank" rel="noopener" id="heroIg">@shot_by_ashmit</a>
+      </div>
+    </div>
+  </div>
+  <div class="hero-dots" id="heroDots"></div>
+</header>
+
+<section class="genres-sec wrap" id="genres">
+  <div class="sh"><div><h2>Four ways of seeing</h2><p>Each genre has its own light. Pick one to see that side of the work.</p></div></div>
+  <div class="gshow" id="gshow"></div>
+</section>
+
+<section class="work wrap" id="work">
+  <div class="sh"><div><h2 id="galleryTitle">Portfolio</h2><p id="galleryNote"></p></div><span class="count" id="count"></span></div>
+  <div class="filters" role="group" aria-label="Filter by genre">
+    <button class="filter" data-g="all" aria-pressed="true"><i></i>All</button>
+    <button class="filter" data-g="wildlife" style="--c:var(--wildlife)" aria-pressed="false"><i></i>Wildlife</button>
+    <button class="filter" data-g="cinematic" style="--c:var(--cinematic)" aria-pressed="false"><i></i>Cinematic</button>
+    <button class="filter" data-g="street" style="--c:var(--street)" aria-pressed="false"><i></i>Street</button>
+    <button class="filter" data-g="night" style="--c:var(--night)" aria-pressed="false"><i></i>Night</button>
+  </div>
+  <div class="grid" id="grid"></div>
+  <div class="empty" id="empty" hidden>
+    <h3 id="emptyTitle">New work coming soon</h3>
+    <p id="emptyText">New work is on the way.</p>
+  </div>
+</section>
+
+<section class="films wrap" id="films" hidden>
+  <div class="sprockets"></div>
+  <div class="sh"><div><h2>Films</h2><p>Moving pictures from the same places: aerials on DJI, action on GoPro, the rest on Canon.</p></div><span class="count" id="filmCount"></span></div>
+  <div class="reel" id="reel"></div>
+  <div class="sprockets b"></div>
+</section>
+
+<section class="about wrap" id="about">
+  <div class="portrait" id="portrait">
+    <div class="ph" id="portraitPh"><div>
+      <svg viewBox="0 0 64 64" fill="none" stroke="currentColor" stroke-width="2"><rect x="6" y="18" width="52" height="36" rx="4"/><path d="M22 18l4-7h12l4 7"/><circle cx="32" cy="36" r="10"/></svg>
+      <span id="portraitTxt">Portrait coming soon</span></div></div>
+    <span class="tag">Ashmit Singh · 19</span>
+  </div>
+  <div>
+    <h2>Behind the lens<span>Ashmit Singh, the photographer behind MOJO</span></h2>
+    <div class="bio" id="bio">
+      <p>I'm Ashmit Singh, a 19-year-old photographer and filmmaker shooting under the name MOJO Photography. I chase wildlife at first light, wander cities for street moments, and stay out long after dark for night skies and neon.</p>
+      <p>Most of my work is shot on Canon, with DJI for aerials and GoPro when the camera needs to go where I can't.</p>
+    </div>
+    <div class="facts">
+      <div><b id="fFrames">0</b><small>Frames published</small></div>
+      <div><b id="fFilms">0</b><small>Films</small></div>
+      <div><b>4</b><small>Genres</small></div>
+    </div>
+  </div>
+</section>
+
+<section class="kit wrap" id="kit">
+  <div class="sh"><div><h2>In the bag</h2><p>Three tools, three jobs.</p></div></div>
+  <div class="kit-grid">
+    <article class="kcard main">
+      <span class="pill">Main system</span>
+      <svg viewBox="0 0 80 80" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linejoin="round"><path d="M8 28h14l5-8h20l5 8h20v34H8z"/><circle cx="40" cy="45" r="14"/><circle cx="40" cy="45" r="8"/><path d="M14 22h8"/><circle cx="64" cy="35" r="2"/></svg>
+      <h3>Canon</h3><div class="role">Stills and cinema</div>
+      <p>Wildlife from a distance, street at eye level and long exposures after dark.</p>
+    </article>
+    <article class="kcard">
+      <span class="pill">Aerial</span>
+      <svg viewBox="0 0 80 80" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><rect x="30" y="34" width="20" height="12" rx="4"/><path d="M30 37L16 25M50 37l14-12M30 43L16 55M50 43l14 12"/><ellipse cx="16" cy="25" rx="10" ry="2.5"/><ellipse cx="64" cy="25" rx="10" ry="2.5"/><ellipse cx="16" cy="55" rx="10" ry="2.5"/><ellipse cx="64" cy="55" rx="10" ry="2.5"/><circle cx="40" cy="50" r="3"/></svg>
+      <h3>DJI</h3><div class="role">From above</div>
+      <p>Wide cinematic establishing shots and patterns you can only see from the sky.</p>
+    </article>
+    <article class="kcard">
+      <span class="pill">Action</span>
+      <svg viewBox="0 0 80 80" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linejoin="round"><rect x="14" y="22" width="52" height="38" rx="6"/><circle cx="30" cy="41" r="10"/><circle cx="30" cy="41" r="5"/><rect x="48" y="30" width="12" height="9" rx="1.5"/><path d="M52 22v-4h8v4"/></svg>
+      <h3>GoPro</h3><div class="role">Up close and in motion</div>
+      <p>Mounted, handheld or underwater, for the angles a big camera can't reach.</p>
+    </article>
+  </div>
+</section>
+
+<section class="cta wrap" id="contact">
+  <small>Follow the work on Instagram</small>
+  <a class="handle" id="igBig" href="https://instagram.com/shot_by_ashmit" target="_blank" rel="noopener">@shot_by_ashmit</a>
+  <div class="row-c">
+    <a class="btn primary" id="igBtn" href="https://instagram.com/shot_by_ashmit" target="_blank" rel="noopener">Open Instagram</a>
+    <a class="btn" id="mailBtn" hidden>Email me</a>
+  </div>
+</section>
+
+<footer class="wrap"><span><b>MOJO</b>© <span id="yr"></span> Ashmit Singh. All photographs and films are my own and may not be used without permission.</span><a href="#top">Back to top</a></footer>
+
+<div class="lb" id="lb" hidden role="dialog" aria-modal="true" aria-label="Viewer">
+  <div class="lb-top"><span class="idx" id="lbIdx"></span><button class="btn icon-btn" id="lbClose" aria-label="Close">✕</button></div>
+  <div class="lb-stage" id="lbStage">
+    <button class="btn icon-btn arrow prev" id="lbPrev" aria-label="Previous">‹</button>
+    <button class="btn icon-btn arrow next" id="lbNext" aria-label="Next">›</button>
+    <span class="wm">© MOJO</span>
+  </div>
+  <div class="lb-bar">
+    <div><h3 id="lbTitle"></h3><p id="lbMeta"></p></div>
+  </div>
+</div>
+
+<script src="photos.js"></script>
+<script src="script.js"></script>
+</body>
+</html>

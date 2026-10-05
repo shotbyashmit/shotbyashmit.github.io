@@ -1,0 +1,14 @@
+MOJO PHOTOGRAPHY - HOW TO ADD NEW PHOTOS
+
+1. Resize the photo first: JPG, about 2500 px on the long side, under 3 MB.
+   (Lightroom export, or the free website squoosh.app)
+2. Give it a simple file name with no spaces, e.g.  leopard-tree.jpg
+3. On GitHub, open this repository, click the photos folder,
+   then Add file > Upload files. Drag the photo in and click "Commit changes".
+4. Go back to the main page of the repository, open photos.js and click the pencil icon (Edit).
+5. Copy the example line, paste it at the TOP of the PHOTOS list inside the [ ],
+   and change file, genre, title, place and cam. Click "Commit changes".
+6. Wait 1-2 minutes and refresh your website.
+
+Videos: clips under 25 MB go in the videos folder. Anything longer, upload to YouTube
+(Unlisted is fine) and paste the link into FILMS in photos.js.
