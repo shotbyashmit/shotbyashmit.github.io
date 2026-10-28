@@ -27,6 +27,8 @@ const SITE = {
    { file: "photos/tiger.jpg", genre: "wildlife", title: "Stripes at dawn", place: "Jim Corbett", cam: "Canon", settings: "", cover: true },
 */
 const PHOTOS = [
+  { file: "photos/street-sea-link-haze.jpg", genre: "street", title: "Sea link in the haze", place: "Mumbai", cam: "", settings: "", cover: false },
+  { file: "photos/night-glowing-spheres.jpg", genre: "night", title: "Infinity of light", place: "", cam: "", settings: "", cover: true },
   { file: "photos/night-light-trails.jpg", genre: "night", title: "Blue hour, in motion", place: "", cam: "", settings: "", cover: true },
   { file: "photos/street-metro-symmetry.jpg", genre: "street", title: "Empty carriage", place: "", cam: "", settings: "", cover: false },
 ];
